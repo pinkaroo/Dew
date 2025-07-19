@@ -40,7 +40,6 @@ return function(title, message, duration)
 	frame.Size = UDim2.new(1, 0, 0, 60)
 	frame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 	frame.BorderColor3 = Color3.fromRGB(85, 85, 85)
-	frame.BorderSizePixel = 1
 	frame.ClipsDescendants = true
 	frame.ZIndex = 10
 	frame.Parent = notif_container.holder
