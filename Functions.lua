@@ -1,5 +1,5 @@
 task.spawn(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/pinkaroo/Dew/refs/heads/main/Notification.lua'))()('Lynra', 'Executed script!', 3)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/pinkaroo/Dew/refs/heads/main/Notification.lua'))()('Dew', 'Executed script!', 3)
     if getgenv().lynra then return end
 
     local lynra = {}
