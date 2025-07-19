@@ -57,6 +57,12 @@ return function(title, message, duration)
 	corner.CornerRadius = UDim.new(0, 8)
 	corner.Parent = frame
 
+	local stroke = Instance.new("UIStroke")
+	stroke.Color = Color3.fromRGB(85, 85, 85)
+	stroke.Thickness = 1
+	stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+	stroke.Parent = frame
+
 	local title_label = Instance.new("TextLabel")
 	title_label.Name = "title"
 	title_label.Size = UDim2.new(1, -20, 0, 22)
