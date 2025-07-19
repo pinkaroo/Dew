@@ -3,7 +3,7 @@ return function(title, message, duration)
 	local core_gui = gethui()
 	local http_service = game:GetService("HttpService")
 
-	local function guid()
+	local function generate_guid()
 		return http_service:GenerateGUID(false)
 	end
 
@@ -34,12 +34,11 @@ return function(title, message, duration)
 		layout.Parent = holder
 	end
 
-	local id = guid()
+	local id = generate_guid()
 	local frame = Instance.new("Frame")
 	frame.Name = id
 	frame.Size = UDim2.new(1, 0, 0, 60)
 	frame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
-	frame.BorderColor3 = Color3.fromRGB(85, 85, 85)
 	frame.ClipsDescendants = true
 	frame.ZIndex = 10
 	frame.Parent = notif_container.holder
