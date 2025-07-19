@@ -53,6 +53,10 @@ return function(title, message, duration)
 	gradient.Rotation = 90
 	gradient.Parent = frame
 
+	local corner = Instance.new("UICorner")
+	corner.CornerRadius = UDim.new(0, 8)
+	corner.Parent = frame
+
 	local title_label = Instance.new("TextLabel")
 	title_label.Name = "title"
 	title_label.Size = UDim2.new(1, -20, 0, 22)
