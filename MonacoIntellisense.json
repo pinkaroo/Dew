@@ -232,7 +232,7 @@
       "getgenv": {
           "label": "getgenv();",
           "type": "Method",
-          "description": "Returns the environment that will be applied to each script ran by lynra.",
+          "description": "Returns the environment that will be applied to each script ran by Dew.",
           "insert": "getgenv"
       },
       "rconsoleprint": {
