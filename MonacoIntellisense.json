@@ -392,28 +392,28 @@
   },
   "dew_library": {
     "dew.remote_spy": {
-        "label": "lynra.remote_spy();",
+        "label": "dew.remote_spy();",
         "type": "Method",
         "description": "Runs SimpleSpy.",
-        "insert": "lynra.remote_spy"
+        "insert": "dew.remote_spy"
     },
     "dew.teleport": {
-        "label": "lynra.teleport(vector3: Vector3);",
+        "label": "dew.teleport(vector3: Vector3);",
         "type": "Method",
         "description": "Teleports the local player to the specified position.",
-        "insert": "lynra.teleport"
+        "insert": "dew.teleport"
     },
     "dew.dex": {
-        "label": "lynra.dex();",
+        "label": "dew.dex();",
         "type": "Method",
         "description": "Runs Dex Explorer.",
-        "insert": "lynra.dex"
+        "insert": "dew.dex"
     },
     "dew.infinite_yield": {
-        "label": "lynra.infinite_yield();",
+        "label": "dew.infinite_yield();",
         "type": "Method",
         "description": "Runs Infinite Yield.",
-        "insert": "lynra.infinite_yield"
+        "insert": "dew.infinite_yield"
     }
 }
 }
