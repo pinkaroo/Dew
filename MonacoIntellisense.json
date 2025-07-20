@@ -390,26 +390,26 @@
           "insert": "Drawing.new"
       } 
   },
-  "lynra_library": {
-    "lynra.remote_spy": {
+  "dew_library": {
+    "dew.remote_spy": {
         "label": "lynra.remote_spy();",
         "type": "Method",
         "description": "Runs SimpleSpy.",
         "insert": "lynra.remote_spy"
     },
-    "lynra.teleport": {
+    "dew.teleport": {
         "label": "lynra.teleport(vector3: Vector3);",
         "type": "Method",
         "description": "Teleports the local player to the specified position.",
         "insert": "lynra.teleport"
     },
-    "lynra.dex": {
+    "dew.dex": {
         "label": "lynra.dex();",
         "type": "Method",
         "description": "Runs Dex Explorer.",
         "insert": "lynra.dex"
     },
-    "lynra.infinite_yield": {
+    "dew.infinite_yield": {
         "label": "lynra.infinite_yield();",
         "type": "Method",
         "description": "Runs Infinite Yield.",
