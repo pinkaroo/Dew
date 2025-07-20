@@ -67,7 +67,7 @@ return function(title, message, duration)
 	title_label.Position = UDim2.new(0, 10, 0, 6)
 	title_label.BackgroundTransparency = 1
 	title_label.Text = title
-	title_label.TextSize = 24
+	title_label.TextSize = 22
 	title_label.Font = Enum.Font.SourceSansSemibold
 	title_label.TextColor3 = Color3.fromRGB(255, 255, 255)
 	title_label.TextXAlignment = Enum.TextXAlignment.Left
@@ -77,10 +77,10 @@ return function(title, message, duration)
 	local message_label = Instance.new("TextLabel")
 	message_label.Name = "message"
 	message_label.Size = UDim2.new(1, -20, 0, 18)
-	message_label.Position = UDim2.new(0, 10, 0, 28)
+	message_label.Position = UDim2.new(0, 10, 0, 30)
 	message_label.BackgroundTransparency = 1
 	message_label.Text = message
-	message_label.TextSize = 19
+	message_label.TextSize = 18
 	message_label.Font = Enum.Font.SourceSans
 	message_label.TextColor3 = Color3.fromRGB(204, 204, 204)
 	message_label.TextXAlignment = Enum.TextXAlignment.Left
