@@ -406,7 +406,7 @@
     "dew.dex": {
         "label": "dew.dex();",
         "type": "Method",
-        "description": "Runs Dex Explorer.",
+        "description": "Runs Dex V4.",
         "insert": "dew.dex"
     },
     "dew.infinite_yield": {
